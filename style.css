@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url("images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 727px;
+    position: relative;
+
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 50;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    margin-top: -30px;
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 62px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 58px;
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.gs {
+    background-color: red;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.input {
+    width: 300px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: black;
+    color: whitesmoke;
+
+
+}
+
+.si {
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.eng {
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.separation {
+    width: 112%;
+    height: 16px;
+    border: 6px solid brown;
+    margin-top: -96px;
+    background-color: red;
+    position: relative;
+
+}
+
+.trend {
+    background-color: rgb(38, 34, 34);
+    height: 600vh;
+    width: 220vw;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.images {
+    display: flex;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+    gap: 40px;
+    transition: .3s;
+}
+
+.count {
+    display: flex;
+    font-size: 149px;
+    color: whitesmoke;
+    font-weight: 900;
+    gap: 230px;
+    margin-left: 92px;
+    margin-top: -157px;
+}
+
+.r {
+    display: flex;
+}
+
+.r1 {
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    color: rgb(108, 140, 192);
+    font-size: 25px;
+    gap: 230px;
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: rgb(30, 38, 68);
+    padding: 25px;
+}
+
+.reasons {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.frequently {
+    color: aliceblue;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.ques1 {
+    border: 2px solid black;
+    background-color: rgb(54, 52, 52);
+    height: 65px;
+    width: 43%;
+    padding: 10px;
+    margin-top: 5px;
+
+
+}
+
+.gs1 {
+    background-color: red;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.input1 {
+    width: 590px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 475px;
+
+}
+
+.hero1>:first-child {
+    margin-top: 40px;
+    margin-left: 514px;
+}
+
+.hover:hover {
+    background-color: rgb(84, 78, 78);
+}
+
+.hover1 {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hover1:hover {
+    scale: 1.1;
+}
+
+circle {
+    color: white;
+    border: 3px solid white;
+}
+
+.ques1>:first-child {
+    margin-left: 95%;
+}
